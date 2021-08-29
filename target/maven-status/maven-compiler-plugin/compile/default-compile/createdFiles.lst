@@ -1,0 +1,11 @@
+base\TestBase.class
+pages\BasePage.class
+pages\ListCustomers.class
+util\BrowserFactory.class
+util\Database.class
+pages\LoginPage.class
+pages\DashboardPage.class
+pages\AddCustomerPage.class
+pages\DatabasePage.class
+util\BrowserFactory$BrowserType.class
+pages\Contacts.class
