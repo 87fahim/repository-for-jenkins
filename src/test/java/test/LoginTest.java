@@ -25,8 +25,8 @@ public class LoginTest extends TestBase{
 		driver = BrowserFactory.init();
 		LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
 
-		loginPage.enterUserName(Database.getDataFromDatabase("email"));
-		loginPage.enterPass(Database.getDataFromDatabase("passowrd"));
+		loginPage.enterUserName(Database.getDataFromDatabase("username"));
+		loginPage.enterPass(Database.getDataFromDatabase("password"));
 		Thread.sleep(3000);
 		loginPage.pressLoginBtn();
 
